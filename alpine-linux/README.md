@@ -1,5 +1,7 @@
 # More complicated nodejs app
 
+node-alpine(80M) is smaller than node-stretch(900M)
+
 Run command when docker file is built and add any changes to image
 
 ```docker
