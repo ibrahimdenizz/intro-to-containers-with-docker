@@ -19,3 +19,12 @@ Publish continer' port according to EXPOSE
 ```
 docker run --init --rm --detacth -P <imagename>
 ```
+
+dev.Dockerfile for devolopment 
+
+build dev.Dockerfile
+
+```
+docker build -t my-node-app -f dev.Dockerfile .
+```
+
